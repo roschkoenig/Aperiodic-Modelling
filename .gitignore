@@ -1,0 +1,27 @@
+# Data (never commit raw data)
+data/
+*.csv
+*.edf
+*.mat
+*.h5
+
+# Outputs (figures, models, results)
+outputs/
+*.png
+*.jpg
+*.pdf
+*.pkl
+*.npy
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / VS Code
+.DS_Store
+.vscode/
